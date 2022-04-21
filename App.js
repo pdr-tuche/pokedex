@@ -1,20 +1,24 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import { createDrawerNavigator } from '@react-navigation/drawer';
 
-export default function App() {
+import TelaInicial from './componentes/TelaInicial';
+import Squirtle from './componentes/Squirtle/TelaSquirtle';
+import Charmander from './componentes/Charmander/TelaCharmander';
+import Bulbasaur from './componentes/Bulba/TelaBulba';
+
+
+const Drawer = createDrawerNavigator();
+
+export default function App () {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+    <NavigationContainer >
+      <Drawer.Navigator>
+        <Drawer.Screen name="Home" component = { TelaInicial } />
+        <Drawer.Screen name="Squirtle" component = { Squirtle } />
+        <Drawer.Screen name="Charmander" component = { Charmander } />
+        <Drawer.Screen name="Bulbasauro" component = { Bulbasaur } />
+      </Drawer.Navigator>
+    </NavigationContainer>
+  )
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
