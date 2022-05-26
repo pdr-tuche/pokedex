@@ -2,8 +2,8 @@ A pokedex inicia com a Logo da Pokebola e abaixo o botão verde que ao clickar o
 
 
 <div display = "flex" flex-wrap="nowrap" align = "center">
-    <img width="150px" src="./assets/imgReadme/home.png">
-    <img width="150px" src="./assets/imgReadme/drawer.png">
+    <img width="200px" src="https://github.com/pdr-tuche/pokedex/blob/main/assets/imgReadme/home.PNG">
+    <img width="200px" src="https://github.com/pdr-tuche/pokedex/blob/main/assets/imgReadme/drawer.PNG">
     <br>
     <br>
 </div>
@@ -11,5 +11,5 @@ A pokedex inicia com a Logo da Pokebola e abaixo o botão verde que ao clickar o
 Clicando nos nomes dos pokemons, irá apresentar sua foto junto com as suas evoluções e atributo.
 
 <div display = "flex" flex-wrap="nowrap" align = "center">
-    <img width="150px" src="./assets/imgReadme/pokemon.png">
+    <img width="200px" src="https://github.com/pdr-tuche/pokedex/blob/main/assets/imgReadme/pokemon.PNG">
 </div>
