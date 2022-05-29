@@ -13,3 +13,5 @@ Clicando nos nomes dos pokemons, irá apresentar sua foto junto com as suas evol
 <div display = "flex" flex-wrap="nowrap" align = "center">
     <img width="200px" src="https://github.com/pdr-tuche/pokedex/blob/main/assets/imgReadme/pokemon.PNG">
 </div>
+
+<a href="https://drive.google.com/file/d/1WDfW8AdAeDWY_CAaBsWrLszYbwQwYcE5/view?usp=sharing"> Clique aqui para fazer download do APK </a>
